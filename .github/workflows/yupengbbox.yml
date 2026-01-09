@@ -1,9 +1,9 @@
 name: yupengbbox
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '40 1/6 * * *'
+    - cron: '43 2/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,14 +11,13 @@ jobs:
       - uses: actions/checkout@v4
       - name: yupengbbox
         env:
-          qg15: ${{ secrets.qg15 }}
+          kw8049: ${{ secrets.kw8049 }}
         run: |
-          echo $qg15 | jq -r .pkzia6 | /bin/bash
-          echo $iuz7817 | jq -r .ff5786 | /bin/bash
-          echo $lwkqb6 | jq -r .ge2124 | /bin/bash
-          echo $yk068 | jq -r .outs072 | /bin/bash
-          echo $zidnb2 | jq -r .lml1 | /bin/bash
-          echo $erlbt9 | jq -r .x2 | /bin/bash
-          echo $tryms98 | jq -r .id91 | /bin/bash
-          echo $lofn7 | jq -r .c63951 | /bin/bash
+          echo $kw8049 | jq -r .je25 | /bin/bash
+          echo $yp13164 | jq -r .dn52620 | /bin/bash
+          echo $o2 | jq -r .ajo273 | /bin/bash
+          echo $iqekj5 | jq -r .ggk5 | /bin/bash
+          echo $ua5348 | jq -r .fdfz6440 | /bin/bash
+          echo $kdjn00746 | jq -r .vt09885 | /bin/bash
+          echo $r77869 | jq -r .i988 | /bin/bash
 
